@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15.415" height="23.122" viewBox="0 0 15.415 23.122">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.155" y2="1.43" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#188dff"/>
+      <stop offset="0" stop-color="#1793f8"/>
+      <stop offset="1" stop-color="#06f280"/>
+    </linearGradient>
+  </defs>
+  <g id="seta-baixo" transform="translate(21.415 26.122) rotate(180)">
+    <path id="Caminho_5" data-name="Caminho 5" d="M18.707,11.992a1.166,1.166,0,0,1-.9-.385L11.385,5.184a1.242,1.242,0,0,1,0-1.8,1.242,1.242,0,0,1,1.8,0l6.423,6.423a1.242,1.242,0,0,1,0,1.8,1.166,1.166,0,0,1-.9.385Z" transform="translate(1.423)" fill="url(#linear-gradient)"/>
+    <path id="Caminho_6" data-name="Caminho 6" d="M7.285,11.992a1.166,1.166,0,0,1-.9-.385,1.242,1.242,0,0,1,0-1.8l6.423-6.423a1.242,1.242,0,0,1,1.8,0,1.242,1.242,0,0,1,0,1.8L8.184,11.607a1.166,1.166,0,0,1-.9.385Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+    <path id="Caminho_7" data-name="Caminho 7" d="M12.285,26.122A1.214,1.214,0,0,1,11,24.838V4.285A1.214,1.214,0,0,1,12.285,3a1.214,1.214,0,0,1,1.285,1.285V24.838A1.214,1.214,0,0,1,12.285,26.122Z" transform="translate(1.423 0)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
