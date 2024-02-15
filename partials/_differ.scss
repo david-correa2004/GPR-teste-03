@@ -1,6 +1,6 @@
-#differentials{
+#differentials {
     padding: 5% 0 0;
-    .container{
+    .container {
         width: 100%;
         height: fit-content;
         padding: 0 0 5%;
@@ -9,46 +9,46 @@
         place-items: center;
         gap: 0 1rem;
         border-radius: 37px 37px 0 0;
-        .conts{
+        .conts {
             width: 80%;
             display: grid;
-            grid-template-columns: repeat(3,1fr);
+            grid-template-columns: repeat(3, 1fr);
             place-items: center;
             gap: 0 2rem;
-            .cont{
+            .cont {
                 width: 100%;
                 height: 100%;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                background: linear-gradient(180deg, #1D1D1C 0%, #11518E 100%) ;
+                background: linear-gradient(180deg, #1d1d1c 0%, #11518e 100%);
                 position: relative;
                 top: -10%;
                 padding: 5% 0;
                 gap: 1rem 0;
                 border-radius: 13px;
-                .img{
+                .img {
                     width: 80%;
                     display: grid;
                     place-items: center start;
                     gap: 1.5rem 0;
-                    img{
+                    img {
                         width: 100%;
                         height: auto;
                         border-radius: 12px;
                     }
-                    .icon{
+                    .icon {
                         width: auto;
                         height: 35px;
                     }
                 }
-                h3{
+                h3 {
                     width: 80%;
                     font-size: 18px;
                     color: $color3;
                 }
-                p{
+                p {
                     width: 80%;
                     font-size: 13px;
                 }
@@ -56,11 +56,11 @@
         }
     }
 }
-@media(max-width: 800px){
-    #differentials{
-        .container{
-            .conts{
-                grid-template-columns: repeat(1,1fr);
+@media (max-width: 800px) {
+    #differentials {
+        .container {
+            .conts {
+                grid-template-columns: repeat(1, 1fr);
                 gap: 2rem 0;
             }
         }

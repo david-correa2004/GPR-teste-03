@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   border: 0;
@@ -17,6 +16,12 @@
   font-family: "Poppins", sans-serif;
 }
 
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  src: url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap") format("woff2");
+  font-display: swap;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -31,7 +36,7 @@ section {
 }
 
 body {
-  background: #07070B;
+  background: #07070b;
 }
 
 .container {
@@ -44,7 +49,7 @@ a {
 }
 
 button {
-  background: #008DFF;
+  background: #008dff;
   font-size: 14px;
   width: 200px;
   height: 50px;
@@ -79,12 +84,12 @@ p {
 }
 
 ::-webkit-scrollbar {
-  background-color: #07070B;
+  background-color: #07070b;
   width: 12px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #008DFF;
+  background-color: #008dff;
   border-radius: 10px;
 }
 
@@ -114,7 +119,7 @@ header {
 }
 header[data-active=true] {
   height: 15%;
-  background: #07070B;
+  background: #07070b;
 }
 header nav {
   transition: all 0.3s ease-in;
@@ -197,7 +202,7 @@ header nav .cont #sidebar__nav ul a::after {
   width: 0%;
   height: 1px;
   bottom: 0;
-  background: #00F280;
+  background: #00f280;
   transition: all 0.5s ease;
 }
 header nav .cont #sidebar__nav ul a:hover::after {
@@ -235,7 +240,7 @@ header nav .cont #sidebar__nav ul a.active::after {
     width: 15px;
   }
   header nav .cont #menu__btn:hover .boll {
-    background: #008DFF;
+    background: #008dff;
   }
   header nav .cont #menu__btn[data-active=true] {
     right: 55%;
@@ -287,7 +292,7 @@ header nav .cont #sidebar__nav ul a.active::after {
     list-style: none;
     gap: 2.5rem 0;
     top: 0;
-    background: #07070B;
+    background: #07070b;
     transition: all 0.2s ease;
   }
   header nav .cont #sidebar__nav ul .li a p {
@@ -452,7 +457,7 @@ header nav .cont #sidebar__nav ul a.active::after {
   width: 30%;
   height: 100%;
   border-radius: 0 50% 50% 0;
-  background: transparent radial-gradient(closest-side at 50% 50%, #006E98 0%, rgba(0, 110, 152, 0) 100%) 0% 0% no-repeat padding-box;
+  background: transparent radial-gradient(closest-side at 50% 50%, #006e98 0%, rgba(0, 110, 152, 0) 100%) 0% 0% no-repeat padding-box;
   left: -16%;
   z-index: -1;
 }
@@ -463,7 +468,7 @@ header nav .cont #sidebar__nav ul a.active::after {
   width: 30%;
   height: 100%;
   border-radius: 0 50% 50% 0;
-  background: transparent radial-gradient(closest-side at 50% 50%, #006E98 0%, rgba(0, 110, 152, 0) 100%) 0% 0% no-repeat padding-box;
+  background: transparent radial-gradient(closest-side at 50% 50%, #006e98 0%, rgba(0, 110, 152, 0) 100%) 0% 0% no-repeat padding-box;
   right: -16%;
   z-index: -1;
 }
@@ -494,7 +499,7 @@ header nav .cont #sidebar__nav ul a.active::after {
   width: fit-content;
   padding: 5px 15px;
   border-radius: 18px;
-  color: #008DFF;
+  color: #008dff;
   background: #fff;
 }
 #sobre .container .text p {
@@ -519,7 +524,8 @@ header nav .cont #sidebar__nav ul a.active::after {
   align-items: center;
   z-index: 2;
 }
-#sobre .container #car .seta .swiper-button-prev-img, #sobre .container #car .seta .swiper-button-next-img {
+#sobre .container #car .seta .swiper-button-prev-img,
+#sobre .container #car .seta .swiper-button-next-img {
   height: 100%;
   width: 20px;
   display: grid;
@@ -528,7 +534,8 @@ header nav .cont #sidebar__nav ul a.active::after {
   border-radius: 7px;
   cursor: pointer;
 }
-#sobre .container #car .seta .swiper-button-prev-img img, #sobre .container #car .seta .swiper-button-next-img img {
+#sobre .container #car .seta .swiper-button-prev-img img,
+#sobre .container #car .seta .swiper-button-next-img img {
   width: 80%;
   height: auto;
   transform: rotateZ(90deg);
@@ -595,7 +602,7 @@ header nav .cont #sidebar__nav ul a.active::after {
   height: -moz-fit-content;
   height: fit-content;
   padding: 0 0 5%;
-  background: #008DFF;
+  background: #008dff;
   display: grid;
   place-items: center;
   gap: 0 1rem;
@@ -615,7 +622,7 @@ header nav .cont #sidebar__nav ul a.active::after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(180deg, #1D1D1C 0%, #11518E 100%);
+  background: linear-gradient(180deg, #1d1d1c 0%, #11518e 100%);
   position: relative;
   top: -10%;
   padding: 5% 0;
@@ -660,7 +667,7 @@ header nav .cont #sidebar__nav ul a.active::after {
   display: grid;
   place-items: center;
   width: 100%;
-  background: #008DFF;
+  background: #008dff;
   gap: 2rem 0;
   padding: 0 0 5%;
   border-radius: 0 0 37px 37px;
@@ -688,8 +695,8 @@ header nav .cont #sidebar__nav ul a.active::after {
   width: fit-content;
   padding: 5px 15px;
   border-radius: 18px;
-  color: #07070B;
-  background: #00F280;
+  color: #07070b;
+  background: #00f280;
 }
 #services .container .text p {
   font-size: 18px;
@@ -721,7 +728,7 @@ header nav .cont #sidebar__nav ul a.active::after {
   display: block;
   width: 100%;
   height: 0;
-  background: #00F280;
+  background: #00f280;
   top: 0;
   transition: all 0.5s ease;
 }
@@ -761,7 +768,7 @@ header nav .cont #sidebar__nav ul a.active::after {
   }
   100% {
     opacity: 0.9;
-    color: #07070B;
+    color: #07070b;
   }
 }
 #services .container .conts .cont:hover {
@@ -775,7 +782,7 @@ header nav .cont #sidebar__nav ul a.active::after {
 }
 #services .container .conts .cont:hover p,
 #services .container .conts .cont:hover h3 {
-  color: #07070B;
+  color: #07070b;
   z-index: 2;
   animation: 1.5s animate;
 }
@@ -806,7 +813,7 @@ header nav .cont #sidebar__nav ul a.active::after {
   }
   #services .container .conts .cont h3,
   #services .container .conts .cont p {
-    color: #07070B;
+    color: #07070b;
     z-index: 2;
   }
   #services .container .conts .cont:hover p,
@@ -838,7 +845,7 @@ header nav .cont #sidebar__nav ul a.active::after {
   gap: 0 1rem;
   background: transparent;
   color: #fff;
-  border: 1px solid #008DFF;
+  border: 1px solid #008dff;
   border-radius: 13px;
 }
 #projeto .container .btn button img {
@@ -872,7 +879,7 @@ header nav .cont #sidebar__nav ul a.active::after {
   width: fit-content;
   padding: 5px 15px;
   border-radius: 18px;
-  color: #008DFF;
+  color: #008dff;
   background: #fff;
   opacity: 1;
 }
@@ -884,7 +891,7 @@ header nav .cont #sidebar__nav ul a.active::after {
 
 @media (max-width: 800px) {
   #projeto {
-    background: #07070B;
+    background: #07070b;
   }
   #projeto .container {
     width: 100%;
@@ -922,7 +929,7 @@ header nav .cont #sidebar__nav ul a.active::after {
   width: 40%;
   height: 100%;
   border-radius: 0 50% 50% 0;
-  background: transparent radial-gradient(closest-side at 50% 50%, #006E98 0%, rgba(0, 110, 152, 0) 100%) 0% 0% no-repeat padding-box;
+  background: transparent radial-gradient(closest-side at 50% 50%, #006e98 0%, rgba(0, 110, 152, 0) 100%) 0% 0% no-repeat padding-box;
   right: -19%;
   z-index: -1;
 }
@@ -999,7 +1006,7 @@ header nav .cont #sidebar__nav ul a.active::after {
   width: 100%;
   height: 100%;
   left: -5%;
-  background: #008DFF;
+  background: #008dff;
   z-index: 1;
   border-radius: 33px;
 }
@@ -1031,7 +1038,7 @@ header nav .cont #sidebar__nav ul a.active::after {
   font-size: 14px;
   padding: 5px 15px;
   border-radius: 18px;
-  color: #008DFF;
+  color: #008dff;
   background: #fff;
 }
 #junt #mercado .container .cont-text .conts {
@@ -1048,7 +1055,7 @@ header nav .cont #sidebar__nav ul a.active::after {
   gap: 0.8rem 0;
 }
 #junt #mercado .container .cont-text .conts .cont h2 {
-  color: #00F280;
+  color: #00f280;
   font-size: 36px;
 }
 #junt #mercado .container .cont-text .conts .cont p {
@@ -1056,11 +1063,11 @@ header nav .cont #sidebar__nav ul a.active::after {
 }
 #junt #mercado .container .cont-text .conts .cont h3 {
   font-size: 18px;
-  color: #07070B;
+  color: #07070b;
 }
 #junt #mercado .container .cont-text .btn button {
   background: #fff;
-  color: #07070B;
+  color: #07070b;
 }
 #junt #mercado .container .img {
   width: 25%;
@@ -1133,7 +1140,7 @@ header nav .cont #sidebar__nav ul a.active::after {
   width: 40%;
   height: 100%;
   border-radius: 0 50% 50% 0;
-  background: transparent radial-gradient(closest-side at 50% 50%, #006E98 0%, rgba(0, 110, 152, 0) 100%) 0% 0% no-repeat padding-box;
+  background: transparent radial-gradient(closest-side at 50% 50%, #006e98 0%, rgba(0, 110, 152, 0) 100%) 0% 0% no-repeat padding-box;
   left: -18%;
   top: -15%;
   z-index: -1;
@@ -1288,7 +1295,7 @@ footer {
   display: grid;
   place-items: center;
   text-align: center;
-  background: #008DFF;
+  background: #008dff;
   padding: 3% 0 1%;
 }
 footer .container {

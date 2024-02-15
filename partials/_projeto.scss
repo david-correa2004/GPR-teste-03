@@ -1,15 +1,15 @@
-#projeto{
+#projeto {
     background: url(../assets/img/projeto.webp);
-    .container{
+    .container {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: end;
-        .btn{
+        .btn {
             width: 40%;
             display: grid;
             place-items: end center;
-            button{
+            button {
                 width: 181px;
                 height: 44px;
                 display: flex;
@@ -21,72 +21,72 @@
                 color: $color3;
                 border: 1px solid $color2;
                 border-radius: 13px;
-                img{
+                img {
                     width: 20px;
                     height: auto;
                 }
             }
         }
-        .text{
+        .text {
             width: 60%;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             gap: 1rem 0;
-            .img-fundo{
+            .img-fundo {
                 display: none;
             }
-            .title{
+            .title {
                 width: 100%;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: start;
-                gap: .5rem 0;
-                h2{
+                gap: 0.5rem 0;
+                h2 {
                     font-size: 28px;
                 }
-                p{
+                p {
                     width: fit-content;
                     padding: 5px 15px;
                     border-radius: 18px;
-                    color: #008DFF;
+                    color: #008dff;
                     background: #fff;
                     opacity: 1;
                 }
             }
-            p{
+            p {
                 font-size: 14px;
                 line-height: 22px;
-                opacity: .9;
+                opacity: 0.9;
             }
         }
     }
 }
-@media(max-width: 800px){
-    #projeto{
-        background: #07070B;
-        .container{
+@media (max-width: 800px) {
+    #projeto {
+        background: #07070b;
+        .container {
             width: 100%;
             flex-direction: column-reverse;
             align-items: center;
             gap: 2rem 0;
-            .btn{
+            .btn {
                 width: auto;
             }
-            .text{
+            .text {
                 width: 100%;
-                .title{
+                .title {
                     width: 80%;
                     align-items: center;
                     text-align: center;
                 }
-                .img-fundo{
+                .img-fundo {
                     display: block;
                     width: 100%;
                 }
-                p{
+                p {
                     width: 80%;
                 }
             }

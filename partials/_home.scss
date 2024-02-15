@@ -28,7 +28,7 @@
         bottom: 5%;
         display: grid;
         place-items: center;
-        .btn{
+        .btn {
             display: none;
         }
         .cont {
@@ -109,14 +109,14 @@
                 p {
                     font-size: 16px;
                 }
-                a{
+                a {
                     display: none;
                 }
             }
-            .icons{
+            .icons {
                 right: auto;
                 gap: 2rem 0;
-                .btn{
+                .btn {
                     display: grid;
                 }
             }

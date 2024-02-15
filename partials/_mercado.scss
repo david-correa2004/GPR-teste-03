@@ -1,4 +1,4 @@
-#junt{
+#junt {
     #mercado {
         width: 100%;
         display: grid;
@@ -98,7 +98,7 @@
     }
 }
 @media (max-width: 800px) {
-    #junt{
+    #junt {
         #mercado {
             .container {
                 flex-direction: column-reverse;
@@ -113,19 +113,19 @@
                 .cont-text {
                     width: 90%;
                     place-items: center;
-                    .text{
+                    .text {
                         align-items: center;
                         text-align: center;
                         gap: 1.5rem 0;
-                        .title{
+                        .title {
                             width: 100%;
                             align-items: center;
                             text-align: center;
                             gap: 1rem 0;
-                            p{
+                            p {
                                 padding: 6px 20px;
                             }
-                            h2{
+                            h2 {
                                 font-size: 24px;
                             }
                         }
@@ -135,8 +135,8 @@
                         grid-template-columns: repeat(1, 1fr);
                         gap: 2rem 0;
                         padding: 0 0 5%;
-                        .cont{
-                            h3{
+                        .cont {
+                            h3 {
                                 width: 90%;
                             }
                         }
